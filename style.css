@@ -1,4 +1,5 @@
-/* style.css */
+
+/* Resetting some default styles for the body element */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -7,10 +8,28 @@ body {
     text-align: center;
 }
 
+/* Heading style */
 h1 {
     color: #333;
 }
 
+/* Paragraph style */
 p {
     color: #666;
+}
+
+/* Button style */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #0056b3;
 }
